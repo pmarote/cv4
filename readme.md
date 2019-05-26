@@ -1,12 +1,26 @@
-# cv4
+# Cv4
 Conversor 4, reescrevendo o Conversor 3 do zero, incluindo tudo do projeto pn-PublicoNet
 
-## Versão 3.0 - todo
+## Todo
 
-- Fechar apenas o backend
-- Usar apenas diários oficias tj sp 1a instância capital e 2a instância
-- Em uma segunda etapa, usar consultas web como tit público
-- Funciona em conjunto com cv3, como um módulo adicional, estilo antiga pasta 'xtra'
+- Backend: partindo do exemplo de https://github.com/gothinkster/slim-php-realworld-example-app
+- Frontend: partindo do exemplo de https://github.com/rtfeldman/elm-spa-example
+
+- Versão 4.0.x
+	- trabalhar apenas na parte de pn-PublicoNet
+	- Fechar apenas o backend
+	- Usar apenas diários oficias tj sp 1a instância capital e 2a instância
+	- Funciona em conjunto com cv3, como um módulo adicional, menu cv4
+
+- Versão 4.1.x
+	- Usar consultas web como tit público
+
+- Versão 4.2.x
+	- Frontend - Ver no final deste md
+
+- Versão 4.3.x 
+	- Começar a trazer o que está no Conversor 3 para cá
+
 
 ### Como funciona o threadConv ?
 
@@ -88,7 +102,7 @@ Tudo está em UTF-8.
 
 
 
-## Versão 3.1 - Fechar o frontent
+## Versão 4.2 - Fechar o frontent
 
 ### O projeto é o seguinte:
 1. O usuário manda via um site de busca ainda não definido, como www.ppi.com.br, WhatsApp ou Telegram uma pergunta complexa e direta, como: “Como o juiz Zezinho da 7ª vara de São Paulo julga ações contendo Gafisa e Bem de Família?”
